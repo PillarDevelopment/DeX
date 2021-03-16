@@ -1,11 +1,11 @@
 {
-  "name": "@pillardevelopment/pillarswap",
+  "name": "@pillardev/pillarswap",
   "version": "1.0.0",
+  "publishConfig": {"access": "public"},
   "description": "Simple Uniswap V2 fork",
   "engines": {
     "node": ">=10"
   },
-  "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
@@ -16,7 +16,8 @@
     "type": "git",
     "url": "https://github.com/PillarDevelopment/DeX"
   },
-  "license": "license": "GPL-3.0-or-later",
+  "author": "Ivan Borisov <2622610@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PillarDevelopment/DeX/issues"
   },
